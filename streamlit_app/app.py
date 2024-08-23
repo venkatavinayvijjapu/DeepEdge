@@ -2,7 +2,7 @@
 import streamlit as st
 import requests
 
-st.title("LLM-based RAG Search")
+st.title("DEEPEDGE PROJECT")
 if "messages" not in st.session_state:
    st.session_state.messages = []
 for message in st.session_state.messages:
