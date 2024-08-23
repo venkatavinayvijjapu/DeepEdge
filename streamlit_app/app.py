@@ -8,8 +8,7 @@ if "messages" not in st.session_state:
 for message in st.session_state.messages:
   with st.chat_message(message["role"]):
      st.markdown (message["content"])
-# Input for user query
-# query = st.text_input("Enter your query:")
+
 if query:= st.chat_input("Enter your Query...."):
     print(query)
     st.session_state.messages.append({"role": "user", "content": query})
