@@ -4,11 +4,6 @@ import logging
 from bs4 import BeautifulSoup
 logging.basicConfig(level=logging.INFO)
 from openai import OpenAI
-from langchain.memory import ChatMessageHistory
-from langchain_openai import ChatOpenAI
-from langchain_core.output_parsers import StrOutputParser
-from langchain_core.prompts import ChatPromptTemplate,MessagesPlaceholder
-from langchain_core.prompts import PromptTemplate
 from dotenv import load_dotenv
 load_dotenv()
 
