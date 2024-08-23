@@ -102,4 +102,4 @@ Open your web browser and go to `http://localhost:8501`. You can now interact wi
 - **requirements.txt**: Lists the project dependencies.
 
 ## Video Prototype:
-https://www.veed.io/view/14a2b325-2177-463b-bf16-88dbeb3d33cb?panel=share
+You can watch the demo video [here](https://www.veed.io/view/14a2b325-2177-463b-bf16-88dbeb3d33cb?panel=share).
